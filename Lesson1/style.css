@@ -1,81 +1,81 @@
 a {
-    text-decoration: none;
- }
+  text-decoration: none;
+}
 
 h1 {
-   color: #222222;
-   font-size: 28px;
-   line-height: 36px;
-   font-weight: 300;
-   }
+  color: #222222;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 300;
+}
 
 p {
-   font-style: normal;
-	font-weight: 300;
-	font-size: 18px;
-	line-height: 24px;
-	color: #7d7987;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  color: #7d7987;
 }
 
 h2 {
-   color: coral;
-   font-style: normal;
-   font-weight: 700;
-   font-size: 36px;
-   line-height: 80px;
+  color: coral;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 80px;
 }
 
-.links-menu{
-   color: cornflowerblue;
-   font-size: 20px;
-   line-height: 20px;
+.links-menu {
+  color: cornflowerblue;
+  font-size: 20px;
+  line-height: 20px;
 }
 
-.links-menu-catalog{
-   color:brown;
-   font-size: 20px;
-   line-height: 20px;
+.links-menu-catalog {
+  color: brown;
+  font-size: 20px;
+  line-height: 20px;
 }
 
-.links-menu-contacts{
-   color:green;
-   font-size: 20px;
-   line-height: 20px;
+.links-menu-contacts {
+  color: green;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .title {
-   color: #222222;
-	font-size: 40px;
-	line-height: 36px;
-	font-weight: 300;
+  color: #222222;
+  font-size: 40px;
+  line-height: 36px;
+  font-weight: 300;
 }
 
 .subtitle {
-   color: #222222;
-   font-size: 20px;
-	line-height: 20px;
+  color: #222222;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .form-input {
-	width: 200px;
-	height: 30px;
-	outline: none;
-	border: 1px solid #ccc;
-	border-radius: 15px;
-	font-size: 14px;
-	line-height: 30px;
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 30px;
 }
 
 .btn {
-	min-width: 100px;
-	height: 30px;
-	font-size: 14px;
-	border: 1px solid #ccc;
-	border-radius: 10px;
+  min-width: 100px;
+  height: 30px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
 
-.subtitle-catalog{
-   color: #222222;
-   font-size: 30px;
-	line-height: 30px;
+.subtitle-catalog {
+  color: #222222;
+  font-size: 30px;
+  line-height: 30px;
 }

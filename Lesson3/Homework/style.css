@@ -36,6 +36,16 @@ img {
 
 .navigation {
   padding: 51px 0;
+  display: flex;
+  max-width: 533px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.content_navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navigation__link {
@@ -50,8 +60,13 @@ img {
   margin-bottom: 259px;
 }
 
+.content {
+  display: flex;
+  gap: 41px;
+}
+
 .content__left-side {
-  max-width: 589px;
+  max-width: 522px;
 }
 
 .content__left-side h1 {
@@ -68,6 +83,12 @@ img {
   font-size: 20px;
   margin-bottom: 37px;
   font-weight: 400;
+  max-width: 466px;
+}
+
+.content__btn-text {
+  display: flex;
+  gap: 72px;
 }
 
 .btn {
@@ -83,9 +104,17 @@ img {
   font-weight: 400;
 }
 
-.content__btn-text p {
+.btn-watch {
   color: #aaa;
   font-family: "Gilroy-Bold";
   font-size: 15px;
   font-weight: 400;
+  background: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
 }
