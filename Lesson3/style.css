@@ -33,7 +33,7 @@ img {
   padding: 39px 0;
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 32px;
 }
 
 .navigation__link {
@@ -148,4 +148,38 @@ img {
   grid-column: span 2;
   grid-row: span 2;
   gap: 60px;
+}
+
+@media (max-width: 1146px) and (min-width: 848px) {
+  .container {
+    max-width: 767px;
+  }
+  .content__left-side h2 {
+    font-size: 16px;
+  }
+  .content__left-side h1 {
+    font-size: 48px;
+  }
+  .content {
+    flex-direction: column;
+    gap: 128px;
+    align-items: center;
+  }
+  .logos {
+    max-width: 534px;
+    gap: 32px;
+    justify-content: center;
+  }
+  .carts__list {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    justify-items: center;
+  }
+  .card {
+    background: #111826;
+    max-width: 362px;
+  }
+  .hidden {
+    display: none;
+  }
 }
