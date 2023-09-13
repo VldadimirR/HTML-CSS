@@ -65,6 +65,7 @@ img {
   display: flex;
   gap: 63px;
   margin-bottom: 65px;
+  justify-content: center;
 }
 
 .banner_text {
