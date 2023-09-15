@@ -222,7 +222,7 @@ span.bold_pict {
   margin-bottom: 60px;
 }
 
-@media (max-width: 1146px) and (min-width: 768px) {
+@media (max-width: 1024px) and (min-width: 768px) {
   .container {
     max-width: 736px;
   }
