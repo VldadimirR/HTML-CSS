@@ -54,7 +54,9 @@ img {
 }
 
 .banner {
+  display: flex;
   background: #f1e4e6;
+  justify-content: center;
 }
 
 .banner_sect {
@@ -65,7 +67,6 @@ img {
   display: flex;
   gap: 63px;
   margin-bottom: 65px;
-  justify-content: center;
 }
 
 .banner_text {
@@ -216,4 +217,15 @@ span.bold_pict {
   border: 1px solid #ff6a6a;
   background: #ffffff;
   margin-bottom: 60px;
+}
+
+@media (max-width: 1146px) and (min-width: 848px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .right_navigation {
+    gap: 25px;
+    padding: 31px 0px 19px 0px;
+  }
 }
