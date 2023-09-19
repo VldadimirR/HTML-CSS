@@ -222,7 +222,7 @@ span.bold_pict {
   margin-bottom: 60px;
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1139px) and (min-width: 768px) {
   .container {
     max-width: 736px;
   }
@@ -285,5 +285,59 @@ span.bold_pict {
 
   .items {
     margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 343px;
+    margin: 0 auto;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .right_navigation {
+    align-items: center;
+  }
+
+  .banner_text h2 {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  .banner_sect {
+    gap: 0px;
+  }
+
+  span.bold {
+    font-size: 38px;
+  }
+
+  .banner {
+    padding-left: calc(50% - 188px);
+    padding-right: calc(50% - 188px);
+  }
+
+  .banner_text {
+    padding: 148px 0px;
+  }
+
+  .pict_with_back {
+    gap: 32px;
+  }
+
+  .pict_img_acces {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .pict_img_acces {
+    margin-bottom: 64px;
+  }
+
+  .product_main_p {
+    margin-bottom: 64px;
   }
 }
