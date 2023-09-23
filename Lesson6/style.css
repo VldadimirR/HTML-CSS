@@ -119,18 +119,21 @@ span.bold {
   background-image: url("./img/women.png");
   width: 360px;
   height: 260px;
+  cursor: pointer;
 }
 
 .pict_img_men {
   background-image: url("./img/Men.png");
   width: 360px;
   height: 260px;
+  cursor: pointer;
 }
 
 .pict_img_kids {
   background-image: url("./img/kids.png");
   width: 360px;
   height: 260px;
+  cursor: pointer;
 }
 
 .pict_img_acces {
@@ -138,6 +141,7 @@ span.bold {
   width: 1140px;
   height: 180px;
   margin-bottom: 96px;
+  cursor: pointer;
 }
 
 .pict_back {
@@ -473,9 +477,25 @@ span.bold_pict {
   margin: 24px 0px;
 }
 
+.social_icon {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+}
+
+svg:hover path {
+  fill: #f16d7f;
+}
+
+svg:hover .white-icon {
+  fill: white;
+}
+
 @media (max-width: 1139px) and (min-width: 768px) {
   .container {
     max-width: 736px;
+    margin: 0 auto;
   }
 
   .right_navigation {
@@ -537,6 +557,54 @@ span.bold_pict {
   .items {
     margin-bottom: 32px;
   }
+
+  .product-butt {
+    margin-bottom: 64px;
+  }
+
+  .feature__sec {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .form {
+    margin-top: 48px;
+    margin-bottom: 0px;
+  }
+
+  .form-p {
+    margin-bottom: 64px;
+  }
+
+  .photo_subscribe_div {
+    flex-direction: column;
+  }
+
+  .photo_subscribe {
+    background-image: url("./img/Background-photo-plan.png");
+  }
+
+  .subscribe_info {
+    margin: 0px;
+  }
+
+  .subscribe_info img {
+    margin-top: 64px;
+  }
+
+  .photo_subscribe_div {
+    gap: 0px;
+  }
+
+  .subscribe {
+    margin: 0px;
+    margin-top: 48px;
+    margin-bottom: 140px;
+  }
+
+  .subscri-button {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 767px) {
@@ -579,6 +647,10 @@ span.bold_pict {
     gap: 32px;
   }
 
+  .items {
+    gap: 16px;
+  }
+
   .pict_img_acces {
     height: 111px;
     background-size: cover;
@@ -591,5 +663,88 @@ span.bold_pict {
 
   .product_main_p {
     margin-bottom: 64px;
+  }
+
+  .feature__sec {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .form {
+    margin-top: 46px;
+    margin-bottom: 0px;
+  }
+
+  .form-p {
+    margin-bottom: 81px;
+  }
+
+  .photo_subscribe_div {
+    flex-direction: column;
+  }
+
+  .photo_subscribe {
+    background-image: url("./img/Background-photo-phone.png");
+  }
+
+  .subscribe_info {
+    margin: 0px;
+  }
+
+  .subscribe_info img {
+    margin-top: 64px;
+  }
+
+  .photo_subscribe_div {
+    gap: 0px;
+  }
+
+  .subscribe_info p {
+    font-size: 18px;
+    margin-bottom: 59px;
+  }
+
+  .subscribe h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 153%;
+    max-width: 271px;
+  }
+
+  .subscribe {
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 109px;
+    padding: 0px;
+    gap: 22px;
+  }
+
+  .subscri-button input {
+    width: 308px;
+    height: 46px;
+  }
+
+  .subscri-button button {
+    height: 46px;
+  }
+
+  .subscri-button {
+    width: 308px;
+    justify-content: center;
+  }
+
+  .copyright {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .copyright p {
+    margin-bottom: 9px;
+  }
+
+  .social_icon {
+    margin-top: 43px;
   }
 }
