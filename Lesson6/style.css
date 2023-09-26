@@ -94,6 +94,7 @@ img {
 .banner_text {
   display: flex;
   align-items: center;
+  margin: 0px;
 }
 
 .banner_text h2 {
@@ -176,7 +177,6 @@ span.bold {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  margin-bottom: 24px;
 }
 
 .pict_img_women {
