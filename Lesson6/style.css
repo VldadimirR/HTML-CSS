@@ -180,28 +180,28 @@ span.bold {
 }
 
 .pict_img_women {
-  background-image: url("./img/women.png");
+  background-image: url("./img/women.webp");
   width: 360px;
   height: 260px;
   cursor: pointer;
 }
 
 .pict_img_men {
-  background-image: url("./img/Men.png");
+  background-image: url("./img/Men.webp");
   width: 360px;
   height: 260px;
   cursor: pointer;
 }
 
 .pict_img_kids {
-  background-image: url("./img/kids.png");
+  background-image: url("./img/kids.webp");
   width: 360px;
   height: 260px;
   cursor: pointer;
 }
 
 .pict_img_acces {
-  background-image: url("./img/accesors.png");
+  background-image: url("./img/accesors.webp");
   width: 1140px;
   height: 180px;
   margin-bottom: 96px;
@@ -412,7 +412,7 @@ span.bold_pict {
 }
 
 .photo_subscribe {
-  background-image: url("./img/Background-photo.png");
+  background-image: url("./img/Background-photo.webp");
   background-size: cover;
   background-position: center;
 }
@@ -649,7 +649,7 @@ svg:hover .white-icon {
   }
 
   .photo_subscribe {
-    background-image: url("./img/Background-photo-plan.png");
+    background-image: url("./img/Background-photo-plan.webp");
   }
 
   .subscribe_info {
@@ -757,7 +757,7 @@ svg:hover .white-icon {
   }
 
   .photo_subscribe {
-    background-image: url("./img/Background-photo-phone.png");
+    background-image: url("./img/Background-photo-phone.webp");
   }
 
   .subscribe_info {
